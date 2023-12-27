@@ -1,0 +1,176 @@
+/* Fonts from Google Fonts - https://fonts.google.com */
+@import url("https://fonts.googleapis.com/css?family=Staatliches:400,700");
+@import url("https://fonts.googleapis.com/css?family=Lexend:400,700");
+
+body {
+  font-family: 'Lexend';
+  text-align: center;
+  background-color: #131723 !important;
+  color: white;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.center {
+  animation: fadeIn 1.5s;
+  animation-fill-mode: forwards;
+  margin: 10;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: inline-block;
+  border: 4px solid white;
+  border-radius: 25px;
+  background: rgba(19, 23, 35, 0.8);
+  box-shadow: 0px 0px 20px white;
+  padding: 25px;
+  font-size: 24px;
+}
+
+h1 {
+  font-family: Staatliches;
+  color: white;
+  font-size: 69px;
+}
+
+h2 {
+  font-family: Staatliches;
+  color: white;
+  font-size: 48px;
+  padding-top: 30px;
+}
+
+.titlefont {
+  font-family: Staatliches;
+  color: white;
+}
+
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.foot {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 5px;
+  font-size: 12px;
+  font-family: Lexend;
+}
+
+.top {
+  padding: 30px;
+  text-align: center;
+  margin: 30px;
+}
+
+.link {
+  width: 50px;
+  height: 50px;
+}
+
+.socials {
+  margin-bottom: 30px;
+}
+
+.content {
+  border-top-style: solid;
+  padding: 30px;
+  text-align: center;
+}
+
+.content p {
+  font-size: 16px;
+  margin: 30px;
+}
+
+.content h3 {
+  font-family: Staatliches;
+  color: white;
+  font-size: 40;
+}
+
+p1 {
+  font-family: Staatliches;
+  color: white;
+  font-size: 69px;
+  padding-top: 5px;
+}
+
+.content img {
+  height: 100px;
+}
+
+.member{
+  margin: auto;
+  text-align: center;
+  max-width: 400px;
+  display: inline-block;
+  padding: 5px;
+  vertical-align: top;
+}
+
+strong {
+  color: cyan;
+}
+
+a {
+  color: orange;
+}
+
+#hotlinks {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #808080;
+}
+
+#hotlinks li,
+#hotlinks a,
+#hotlinks button {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  padding: 1em;
+}
+
+#hotlinks {
+  display: flex;
+  align-items: center;
+  padding: 20px 10%;
+  width: 100%;
+}
+
+#hotlinks .nav {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#hotlinks .nav_links {
+  list-style: none;
+  padding: 0;
+}
+
+#hotlinks .nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+#hotlinks .nav_links li a {
+  transition: 0.3s;
+}
+
+#hotlinks .nav_links li a:hover {
+  color: purple
+}

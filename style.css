@@ -221,8 +221,33 @@ code {
   color: purple
 }
 
-.invite {
-  padding: 20px;
+#discord {
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+
+  #discord {
+    width: 90%;
+    max-width: 360px;
+  }
+
+  #topBtn {
+    padding: 5px;
+    border-radius: 8px;
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  #discord {
+    width: 60%;
+    max-width: 500px;
+  }
 }
 
 #topBtn {

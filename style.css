@@ -124,14 +124,17 @@ p1 {
   align-items: center;
   text-align: left;
   padding-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .list-items {
   position: relative;
-  left: 25%;
   text-align: left;
   max-width: 60%;
   padding-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media only screen and (max-width: 1400px) {
@@ -187,7 +190,6 @@ code {
   font-size: 25px;
   color: white;
   text-decoration: none;
-  padding: 1em;
 }
 
 #hotlinks {
@@ -206,6 +208,7 @@ code {
 #hotlinks .nav_links {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 #hotlinks .nav_links li {
@@ -230,7 +233,6 @@ code {
 }
 
 @media (max-width: 600px) {
-
   #discord {
     width: 90%;
     max-width: 360px;

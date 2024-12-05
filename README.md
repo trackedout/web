@@ -1,3 +1,3 @@
 # trackedout.org
 
-The official Tracked Out website
+The official website for Tracked Out 

@@ -272,3 +272,66 @@ code {
 #topBtn:hover {
   background-color: #525151;
 }
+
+span.gold {
+  color: gold;
+}
+
+span.purple {
+  color: purple;
+}
+
+.phase-section {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.phase-section:not(:empty) {
+  background-color: #333;
+}
+
+.phase-section h3 {
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+.phase-section span {
+  color: gold;
+}
+
+.phase-section h3:not(.active):not(.future) {
+  color: purple;
+}
+
+.phase-section h3.active {
+  color: gold;
+}
+
+.phase-section h3:not(.active):not(.future):after {
+  content: " (complete)";
+}
+
+.phase-section h3.active::after {
+  content: " (in progress)";
+}
+
+.phase-section h3.future::after {
+  content: " (upcoming)";
+}
+
+.phase-section ul {
+  list-style: square;
+  padding-left: 20px;
+}
+
+.phase-section ul li {
+  margin-bottom: 10px;
+}
+
+.phase-sections {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30%, 15%));
+  gap: 20px;
+  justify-content: center;
+}

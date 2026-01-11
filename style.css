@@ -144,7 +144,7 @@ p1 {
   }
 }
 
-.content img {
+.team img {
   height: 100px;
 }
 
@@ -163,6 +163,7 @@ strong {
 
 a {
   color: orange;
+  text-decoration: underline;
 }
 
 span {

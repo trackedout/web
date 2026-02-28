@@ -148,6 +148,12 @@ p1 {
   height: 100px;
 }
 
+@media (max-width: 900px) {
+  img.large {
+    max-width: 100%;
+  }
+}
+
 .member {
   margin: auto;
   text-align: center;

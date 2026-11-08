@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" role="img" aria-label="Players join from the lobby, Dunga Dunga assigns each one a free dungeon instance, and up to six runs are active at once, each in its own world">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#5c6a8a"/></marker>
+  </defs>
+  <rect width="800" height="450" fill="#131723"/>
+  <g stroke="#5c6a8a" stroke-width="1.5" fill="none" marker-end="url(#a)">
+    <path d="M160 230H230"/>
+    <path d="M380 230C430 230 420 55 470 55"/>
+    <path d="M380 230C430 230 420 125 470 125"/>
+    <path d="M380 230C430 230 420 195 470 195"/>
+    <path d="M380 230C430 230 420 265 470 265"/>
+    <path d="M380 230C430 230 420 335 470 335"/>
+    <path d="M380 230C430 230 420 405 470 405"/>
+  </g>
+  <g stroke-width="2" fill="#1c2236">
+    <rect x="30" y="200" width="130" height="60" rx="8" stroke="#6ea8fe"/>
+    <rect x="230" y="200" width="150" height="60" rx="8" stroke="#b07cf0"/>
+    <g stroke="#4fd1a1">
+      <rect x="470" y="30" width="300" height="50" rx="6"/>
+      <rect x="470" y="100" width="300" height="50" rx="6"/>
+      <rect x="470" y="170" width="300" height="50" rx="6"/>
+      <rect x="470" y="240" width="300" height="50" rx="6"/>
+      <rect x="470" y="310" width="300" height="50" rx="6"/>
+      <rect x="470" y="380" width="300" height="50" rx="6"/>
+    </g>
+  </g>
+  <g fill="#e6e9f2" font-size="15" text-anchor="middle">
+    <text x="95" y="227">Lobby</text>
+    <text x="305" y="227">Dunga Dunga</text>
+    <text x="620" y="52">dungeon-1</text>
+    <text x="620" y="70" fill="#8a94b0" font-size="12">1 player · own fresh world</text>
+    <text x="620" y="122">dungeon-2</text>
+    <text x="620" y="140" fill="#8a94b0" font-size="12">1 player · own fresh world</text>
+    <text x="620" y="192">dungeon-3</text>
+    <text x="620" y="210" fill="#8a94b0" font-size="12">1 player · own fresh world</text>
+    <text x="620" y="262">dungeon-4</text>
+    <text x="620" y="280" fill="#8a94b0" font-size="12">1 player · own fresh world</text>
+    <text x="620" y="332">dungeon-5</text>
+    <text x="620" y="350" fill="#8a94b0" font-size="12">1 player · own fresh world</text>
+    <text x="620" y="402">dungeon-6</text>
+    <text x="620" y="420" fill="#8a94b0" font-size="12">1 player · own fresh world</text>
+  </g>
+  <g fill="#8a94b0" font-size="12" text-anchor="middle">
+    <text x="95" y="245">players join</text>
+    <text x="305" y="245">assigns instance</text>
+    <text x="195" y="222">queue</text>
+    <text x="620" y="18">up to 6 runs at once</text>
+  </g>
+</svg>

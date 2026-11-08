@@ -245,6 +245,14 @@ code {
     max-width: 360px;
   }
 
+  .content {
+    padding: 10px;
+  }
+
+  .content p {
+    margin: 10px;
+  }
+
   #topBtn {
     padding: 5px;
     border-radius: 8px;
@@ -341,4 +349,12 @@ span.purple {
   grid-template-columns: repeat(auto-fit, minmax(30%, 15%));
   gap: 20px;
   justify-content: center;
+}
+
+img.large {
+  display: block;
+  width: 100%;
+  max-width: 1120px;
+  height: auto;
+  margin: 0 auto;
 }

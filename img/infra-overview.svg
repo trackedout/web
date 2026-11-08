@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" role="img" aria-label="Infrastructure graph: players connect through the Velocity proxy to the Citadel lobby or a dungeon instance running Agronet and Brilliance. Both call the Dunga Dunga API backed by MongoDB. The job scheduler polls Dunga Dunga and launches dungeons. MongoDB data is synced to InfluxDB and shown in Grafana. Everything runs on a Kubernetes cluster.">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#5c6a8a"/></marker>
+  </defs>
+  <rect width="800" height="520" fill="#131723"/>
+  <rect x="15" y="85" width="770" height="420" rx="12" fill="none" stroke="#5c6a8a" stroke-dasharray="6 6"/>
+  <text x="30" y="108" fill="#8a94b0" font-size="13">kubernetes cluster (davybones)</text>
+  <g stroke="#5c6a8a" stroke-width="1.5" fill="none" marker-end="url(#a)">
+    <path d="M400 55V120"/>
+    <path d="M340 176C240 190 140 190 135 230"/>
+    <path d="M460 176C580 190 715 170 715 205"/>
+    <path d="M230 273H305"/>
+    <path d="M560 273H495"/>
+    <path d="M355 301V365"/>
+    <path d="M655 365V286"/>
+    <path d="M560 393C500 393 460 350 460 301"/>
+    <path d="M290 393H170"/>
+    <path d="M105 421V450"/>
+  </g>
+  <g stroke-width="2" fill="#1c2236">
+    <rect x="330" y="5" width="140" height="50" rx="8" stroke="#8a94b0"/>
+    <rect x="320" y="120" width="160" height="56" rx="8" stroke="#f0b35c"/>
+    <rect x="40" y="230" width="190" height="56" rx="8" stroke="#6ea8fe"/>
+    <rect x="305" y="245" width="190" height="56" rx="8" stroke="#b07cf0"/>
+    <rect x="580" y="210" width="190" height="56" rx="8" stroke="#6ea8fe"/>
+    <rect x="570" y="220" width="190" height="56" rx="8" stroke="#6ea8fe"/>
+    <rect x="560" y="230" width="190" height="56" rx="8" stroke="#6ea8fe"/>
+    <rect x="290" y="365" width="130" height="56" rx="8" stroke="#4fd1a1"/>
+    <rect x="560" y="365" width="190" height="56" rx="8" stroke="#f0b35c"/>
+    <rect x="40" y="365" width="130" height="56" rx="8" stroke="#4fd1a1"/>
+    <rect x="40" y="450" width="130" height="40" rx="8" stroke="#4fd1a1"/>
+  </g>
+  <g fill="#e6e9f2" font-size="15" text-anchor="middle">
+    <text x="400" y="35">Player</text>
+    <text x="400" y="145">Velocity proxy</text>
+    <text x="135" y="255">Lobby</text>
+    <text x="400" y="270">Dunga Dunga</text>
+    <text x="655" y="255">Dungeon instance ×N</text>
+    <text x="355" y="390">MongoDB</text>
+    <text x="655" y="390">Job Scheduler</text>
+    <text x="105" y="390">InfluxDB</text>
+    <text x="105" y="475">Grafana</text>
+  </g>
+  <g fill="#8a94b0" font-size="12" text-anchor="middle">
+    <text x="400" y="162">Minecraft routing</text>
+    <text x="135" y="273">Paper + Citadel</text>
+    <text x="400" y="288">TypeScript API</text>
+    <text x="655" y="273">Agronet + Brilliance</text>
+    <text x="650" y="304" text-anchor="end">pod or ECS Fargate</text>
+    <text x="355" y="408">datastore</text>
+    <text x="655" y="408">Go</text>
+    <text x="105" y="408">metrics</text>
+    <text x="268" y="265">HTTP</text>
+    <text x="532" y="265">HTTP</text>
+    <text x="395" y="335" text-anchor="end">queries</text>
+    <text x="670" y="338" text-anchor="start">launches</text>
+    <text x="520" y="385">polls</text>
+    <text x="230" y="385">sync</text>
+  </g>
+</svg>
